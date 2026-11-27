@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《徒弟年终奖是我的一千倍》视觉板 · 第1集</title>
+<style>
+  :root{
+    --bg:#0f1114;
+    --panel:#171a1f;
+    --line:#2a2f37;
+    --text:#e8e6e1;
+    --muted:#9aa0a8;
+    --gold:#c8a96a;
+    --cold:#6b8cae;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+    line-height:1.6;
+  }
+  header{
+    padding:48px 6vw 28px;
+    border-bottom:1px solid var(--line);
+    background:linear-gradient(180deg,#15181d 0%,#0f1114 100%);
+  }
+  .kicker{
+    color:var(--gold);
+    font-size:13px;
+    letter-spacing:.28em;
+    text-transform:uppercase;
+    margin-bottom:12px;
+  }
+  h1{
+    margin:0 0 10px;
+    font-size:clamp(26px,4vw,44px);
+    font-weight:600;
+    letter-spacing:.02em;
+  }
+  .sub{color:var(--muted);font-size:15px;max-width:860px;}
+  .meta{
+    display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;
+  }
+  .tag{
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:5px 14px;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .tag strong{color:var(--text);font-weight:500;}
+  main{padding:10px 6vw 80px;}
+  section{padding:44px 0 8px;border-bottom:1px solid var(--line);}
+  section:last-child{border-bottom:none;}
+  h2{
+    font-size:20px;font-weight:600;margin:0 0 6px;
+    display:flex;align-items:baseline;gap:12px;
+  }
+  h2 span{font-size:13px;color:var(--muted);font-weight:400;letter-spacing:.06em;}
+  .lead{color:var(--muted);font-size:14px;margin:0 0 26px;}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    gap:22px;
+  }
+  .grid.four{grid-template-columns:repeat(auto-fill,minmax(280px,1fr));}
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-radius:14px;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+  }
+  .card img{
+    width:100%;
+    aspect-ratio:9/16;
+    object-fit:cover;
+    display:block;
+    background:#0a0b0d;
+  }
+  .card .body{padding:16px 16px 18px;}
+  .name{font-size:16px;font-weight:600;margin:0 0 4px;}
+  .role{font-size:13px;color:var(--gold);margin:0 0 10px;}
+  .desc{font-size:13px;color:var(--muted);margin:0;}
+  .shot{
+    display:inline-block;
+    font-size:12px;
+    color:var(--cold);
+    border:1px solid rgba(107,140,174,.4);
+    border-radius:6px;
+    padding:2px 8px;
+    margin-bottom:8px;
+  }
+  .palette{display:flex;gap:0;border-radius:12px;overflow:hidden;border:1px solid var(--line);margin-top:18px;}
+  .swatch{flex:1;height:64px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:8px;font-size:11px;color:rgba(255,255,255,.75);}
+  .note{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-left:3px solid var(--gold);
+    border-radius:10px;
+    padding:18px 20px;
+    color:var(--muted);
+    font-size:14px;
+    margin-top:18px;
+  }
+  .note strong{color:var(--text);}
+  ul.clean{margin:16px 0 0;padding-left:20px;color:var(--muted);font-size:14px;}
+  ul.clean li{margin:6px 0;}
+  code{
+    background:#0b0d10;border:1px solid var(--line);
+    border-radius:5px;padding:1px 6px;font-size:12px;color:var(--gold);
+  }
+  footer{padding:30px 6vw 60px;color:#5f656d;font-size:12px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Visual Board · Episode 01</div>
+  <h1>徒弟年终奖是我的一千倍</h1>
+  <p class="sub">竖屏短剧视觉开发板 · 第1集《三千块的年终奖》<br>冷灰蓝职场质感，写实电影光，人物克制不表演。</p>
+  <div class="meta">
+    <div class="tag"><strong>9:16</strong> 竖屏</div>
+    <div class="tag"><strong>1080×1920</strong> 输出</div>
+    <div class="tag"><strong>10集</strong> × 85–125秒</div>
+    <div class="tag"><strong>第1集</strong> 20镜 / 8个生成单元</div>
+    <div class="tag">状态：<strong>视觉开发完成，待视频生成审批</strong></div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>角色定妆 <span>CAST / 5</span></h2>
+    <p class="lead">后续多人同框镜头将直接引用这五张图作为参考，固定发型、服装主色与面部特征。</p>
+    <div class="grid">
+      <div class="card">
+        <img src="assets/角色定妆/C01_李恒_定妆.png" alt="李恒定妆照">
+        <div class="body">
+          <p class="name">李恒</p>
+          <p class="role">35岁 · 首席技术骨干</p>
+          <p class="desc">黑色旧羽绒服、深灰高领毛衣。眼神克制，疲惫但不垮。全剧不吼不哭。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/角色定妆/C02_陈锦鸿_定妆.png" alt="陈锦鸿定妆照">
+        <div class="body">
+          <p class="name">陈锦鸿</p>
+          <p class="role">45岁 · 集团副总</p>
+          <p class="desc">油头、深蓝三件套、紫砂壶。前期俯视人，后期弓背求人。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/角色定妆/C03_高敏_定妆.png" alt="高敏定妆照">
+        <div class="body">
+          <p class="name">高敏</p>
+          <p class="role">38岁 · 薪酬主管</p>
+          <p class="desc">红唇、深灰窄裙套装、细高跟。抱臂、讥讽、语速快。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/角色定妆/C04_陈凯_定妆.png" alt="陈凯定妆照">
+        <div class="body">
+          <p class="name">陈凯</p>
+          <p class="role">26岁 · 关系户新人</p>
+          <p class="desc">黑色潮牌卫衣、金色名表、空白支票。得意的假谦虚。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/角色定妆/C05_苏晚_定妆.png" alt="苏晚定妆照">
+        <div class="body">
+          <p class="name">苏晚</p>
+          <p class="role">33岁 · 李恒妻子</p>
+          <p class="desc">素色大衣、旧围巾、眼底泛红。疲惫但克制，不哭闹。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="palette">
+      <div class="swatch" style="background:#20262e">鼎盛冷灰</div>
+      <div class="swatch" style="background:#3d4b5c">雨夜青灰</div>
+      <div class="swatch" style="background:#0b0d10">闭关近黑</div>
+      <div class="swatch" style="background:#6b8cae">屏幕冷蓝</div>
+      <div class="swatch" style="background:#c8a96a">结局暖金</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>第1集关键帧 <span>KEYFRAMES / 4</span></h2>
+    <p class="lead">对应分镜表 01-01 至 01-20。所有画面内文字（支票金额、表彰栏、字幕）均在后期添加。</p>
+    <div class="grid four">
+      <div class="card">
+        <img src="assets/第1集关键帧/KF01_甩信封.png" alt="甩信封关键帧">
+        <div class="body">
+          <span class="shot">01-01 至 01-05</span>
+          <p class="name">信封落桌</p>
+          <p class="desc">高敏松手，信封悬在桌面之上；李恒低头，陈凯在后景捏着支票。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/第1集关键帧/KF02_信封特写.png" alt="信封特写关键帧">
+        <div class="body">
+          <span class="shot">01-03 / 01-04</span>
+          <p class="name">三千块的分量</p>
+          <p class="desc">薄信封、露出的钞票边缘、压住信封的手。全剧羞辱的具象化。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/第1集关键帧/KF03_支票特写.png" alt="支票特写关键帧">
+        <div class="body">
+          <span class="shot">01-07 / 01-08</span>
+          <p class="name">三百万的得意</p>
+          <p class="desc">空白支票举在手里，金色名表、假笑。金额数字后期合成。</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/第1集关键帧/KF04_门口回望.png" alt="门口回望关键帧">
+        <div class="body">
+          <span class="shot">01-18 至 01-20</span>
+          <p class="name">门口回望</p>
+          <p class="desc">抱着纸箱站在门口，回头看向红底表彰栏。集尾钩子：名字是陈凯。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>后期文字清单 <span>POST TEXT</span></h2>
+    <p class="lead">AI 画面内不生成中文，以下内容全部在剪辑阶段添加。</p>
+    <ul class="clean">
+      <li>支票金额：<code>3,000,000</code></li>
+      <li>信封封面：<code>年终奖 · 3,000</code></li>
+      <li>表彰栏：<code>智能风控核算系统 · 第一核心负责人：陈凯</code></li>
+      <li>集内字幕与金句：<code>而这个系统，是我通宵四十五天，一个人写完的。</code></li>
+      <li>片头标题：<code>徒弟年终奖是我的一千倍</code></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>下一步 <span>NEXT</span></h2>
+    <div class="note">
+      <strong>待确认：</strong>当前视觉板确认后，进入第1集视频生成。按 8 个生成单元逐个提交，先生成 3–5 秒测试片段，确认人物稳定与运镜后再批量生成。<br><br>
+      <strong>注意：</strong>视频生成会消耗额度且提交后不可撤销，需要你明确批准后执行。
+    </div>
+  </section>
+</main>
+
+<footer>
+  制片文件：制片计划.md · 剧本分镜.md · 资产清单.md　|　视觉板生成于 2026-11-18
+</footer>
+</body>
+</html>
